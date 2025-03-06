@@ -5,6 +5,10 @@ padding: 0;
 box-sizing: border-box;
 }
 body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     font-family: 'Arial'
     line-height: 1.6;
     padding: 20px;
@@ -21,3 +25,17 @@ body {
     height: auto;
     border-radius: 25px;
     }
+    header {
+        min-height: 100px;
+       
+      }
+      footer {
+        min-height: 50px;
+       
+      }
+      .link-style:hover {
+        text-decoration: underline overline;
+        color: red;
+
+        
+        }
