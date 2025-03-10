@@ -19,13 +19,9 @@ body {
     text-align: center;
     margin-bottom: 20px;
     }
-    .tribute-img {
-    width: auto;
-    height: auto;
-    background: white;
-    padding: 10px;
-    margin: 0;
-    }
+    figcaption {
+      padding: 2px;
+      text-align: center;}
     ul {
       max-width: 550px;
       margin: 0 auto 50px auto;
@@ -49,12 +45,14 @@ body {
       .listalign > ul {
         display: inline-block;
       }
-
-
+      .quote {
+        text-align: center;
+        font-style: italic;
+      }
       #img-div {
         background: white;
-        padding: 10px;
-        margin: 0;
+        padding: 30px;
+        margin: 10;
       }
       
       #img-caption {
