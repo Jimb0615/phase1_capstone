@@ -1,0 +1,146 @@
+/* styles.css */
+
+/*CSS Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Navbar Functionality*/
+#navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 15vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+   
+   
+
+/*Navbar content functionality*/
+#navcontent {
+    display: flex;
+    justify-content: center;
+}
+
+/*Navbar content styling*/
+.nav_list {
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+ul li a {
+    padding: 1px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+/* This class sets the location and round profile of the bio pix */
+.biopic {
+    float: left;
+    margin-left: 15px;
+    margin-top: -25px;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
+  }
+/* This class sets background and font type and color for main body*/ 
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    
+}
+/* this class sets centered alignment for H2 headers*/
+.h2_centered{
+    text-align:center;
+}
+
+/* this class sets centered alignment for H2 headers*/
+.h3_centered{
+    text-align:center;
+}
+
+/* this class sets the height and adds vertical space after bio section*/ 
+.bio_section{
+    height: auto;
+    margin-bottom: 50px;
+}
+/* this class sets the height and adds vertical space between sections*/ 
+.other_sections{
+    height: auto;
+    margin-bottom: 50px;
+ }
+
+ /* this class sets the padding for paragragh elements*/ 
+.p_padding{
+    padding-left: 230px;
+    padding-right: 230px;
+ }
+/* adding flex wrap for unordered list element*/ 
+.flex_wrap{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+.flex_margin{
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+
+/*Designing the footer*/
+footer {
+    text-align: center;
+}
+
+/*Designing of Contact Us*/
+#ContactUs {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+.form-shape input,
+.form-shape select,
+.form-shape textarea {
+    width: 92%;
+    padding: 0.5rem;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+    
+.card {
+        flex-basis: auto;
+    }
+
+.card_center{
+    padding-left: 230px;
+    padding-right: 230px;
+    
+}
+img:hover{
+    transform:scale(3.0);
+    justify-content: center;
+
+}
+
