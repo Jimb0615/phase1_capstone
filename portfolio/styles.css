@@ -66,7 +66,7 @@ body{
     text-align:center;
 }
 
-/* this class sets centered alignment for H2 headers*/
+/* this class sets centered alignment for H3 headers*/
 .h3_centered{
     text-align:center;
 }
@@ -130,15 +130,7 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-/*Designing of Contact Us*/
-#ContactUs {
-    width: 100px;
-    height: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: gray;
-}
+
 
 .form-shape input,
 .form-shape textarea {
