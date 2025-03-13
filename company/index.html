@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <title>JB Solar</title>
+</head>
+
+
+<body>
+    <div class="nav_stick">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
+    <!-- navbar: The main class that creates the navbar container, providing basic styling such as spacing and alignment.
+    navbar-expand-lg: Makes the navbar responsive, remaining collapsed on smaller screens and expanding into a horizontal menu at the large breakpoint (≥992px).
+    bg-body-tertiary: Applies a background color to the navbar using Bootstrap’s tertiary background scheme.-->
+    
+        <div class="container-fluid menucolor">
+        <!-- container-fluid is a class in Bootstrap CSS framework that creates a full width container -->
+        <img src="logo.png" alt="Logo" height="100px" width="100px">
+            <a class="navbar-brand" href="#">JB Solar</a>
+            <!-- navbar-brand: Applied to the branding element (e.g., logo or website name), ensuring proper spacing and styling. -->
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- navbar-toggler: The toggle button visible on smaller screens that collapses or expands the navbar content.	 -->
+                
+                <span class="navbar-toggler-icon"></span>
+                <!-- navbar-toggler-icon: Applies a built-in icon to the toggle button, providing a visual indicator for expanding/collapsing the navbar. -->
+                
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- collapse navbar-collapse: Collapses the navbar content on smaller screens and expands it on larger screens, working with the navbar-toggler. -->
+            
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- navbar-nav: Styles the navigation items inside the navbar, providing appropriate spacing and layout for the list of links. -->
+                
+                    <li class="nav-item">
+                    <!-- nav-item: Applied to each item in the navigation list, ensuring correct padding and alignment for individual links or dropdowns. -->
+                    
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <!-- nav-link: Styles each link inside the navbar, providing correct text color, padding, and hover effects.
+                            nav-link active: Highlights the current page’s link, applying distinct styling to make it visually different.
+                        -->
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#brands">Brands We Install</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+</div>            
+
+<div class="carousel_justify section_margin">
+    <!-- Carousel -->
+    <!-- carousel: The main container for the carousel, establishing the structure necessary for creating a sliding image gallery. -->
+    <div id="home_carousel" class="carousel carousel-dark slide"  data-bs-ride="carousel" data-bs-pause="hover">
+        <!-- slide: Enables the sliding effect when transitioning between carousel items, adding styles for smooth animations. -->
+            <div class="carousel-inner carousel_size">
+            <!-- carousel-inner: Contains all the carousel items, wrapping the individual slides and managing their display and transition effects. -->
+                <div class="carousel-item active" data-bs-interval="10000">
+             
+                    <img src="https://photos.smugmug.com/photos/i-5fLcP8C/0/KtVTsb2CkkCdsk3WrrZFZXgp7jWnZTfSK5D28VT4P/X2/i-5fLcP8C-X2.jpg" class="d-block w-60 box_fill" alt="Solar">
+                   
+                </div>
+                <div class="carousel-item fill" data-bs-interval="10000">
+                    <img src="https://photos.smugmug.com/photos/i-HgBTZX9/0/KcWJxxbdskHN7dMB9QWJ5FWhZkqgcg9VvZTJ2nw9B/X2/i-HgBTZX9-X2.jpg" class="d-block w-60 box_fill" alt="Inverter" >
+
+                </div>
+                <div class="carousel-item fill" data-bs-interval="10000">
+                    <img src="https://photos.smugmug.com/photos/i-F7TKzMt/0/KQxX6VCRGtHtVHHVRnZXcjVjKpVvk2qTrD3WjxQqG/X2/i-F7TKzMt-X2.jpg" class="d-block w-60 box_fill" alt="Batteries">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#home_carousel" data-bs-slide="prev">
+            <!-- carousel-control-prev: Applied to the previous button in the carousel, allowing users to navigate to the previous slide.
+            data-bs-target="#carouselExample": Specifies the ID of the carousel to which the button should apply, linking the button to the corresponding carousel.
+            data-bs-slide="prev": Indicates that the button should navigate to the previous slide when clicked. -->
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <!-- carousel-control-prev-icon and carousel-control-next-icon: Used to apply the icons for the previous and next buttons, providing a visual cue for navigation. -->
+                <span class="visually-hidden">Previous</span>
+                <!-- visually-hidden: Hides the text labels (“Previous” and “Next”) from sighted users while keeping them accessible to screen readers, enhancing accessibility.> -->
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#home_carousel" data-bs-slide="next">
+                <!-- carousel-control-next: Applied to the next button in the carousel, allowing users to navigate to the next slide.
+                data-bs-slide="next": Indicates that the button should navigate to the next slide when clicked. -->
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <!-- carousel-control-prev-icon and carousel-control-next-icon: Used to apply the icons for the previous and next buttons, providing a visual cue for navigation. -->
+                <span class="visually-hidden">Next</span>
+                <!-- visually-hidden: Hides the text labels (“Previous” and “Next”) from sighted users while keeping them accessible to screen readers, enhancing accessibility.> -->
+            </button>
+        </div>
+    </div>
+
+<section id="services" class="section_margin">
+    <h3 class="h3_centered">Our Services</h3>
+    
+    <!-- Card Section -->
+    <div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+            <!-- card: This class creates a flexible and extensible content container. It acts as the main wrapper for the card component, providing styling and structure for the card’s content. -->
+                <img src="https://photos.smugmug.com/photos/i-tFsxXBD/0/LcvmZR8jPs9gXrh8dvZ4TdF7sf3ssXJ5sm4bdVzC4/X2/i-tFsxXBD-X2.jpg" class="card-img-top card_img_size" alt="Inverter and Battery">
+                <div class="card-body">
+                    <h5 class="card-title">Inverter and Battery Installation</h5>
+                    
+                    <p class="card-text">We install Victron inverters and SOK batteries to enable you to power your RV off grid.</p>
+                                  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://photos.smugmug.com/photos/i-c3pn64C/0/MqRwMzh2frCS58w2x5tWWSjF5pdTb2NfXJxH4qhdn/X2/i-c3pn64C-X2.jpg" class="card-img-top card_img_size " alt="Solar panel install">
+                <div class="card-body">
+                    <h5 class="card-title">Solar Panel Installation</h5>
+                    <p class="card-text">We install solar panels and use all avaialble roof space while still maintaing a walkable roof</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://photos.smugmug.com/photos/i-5RTHvVH/0/NcVvPxTtL84DXhxNBNsqP9DLVcKHXpsLKm6vXhR8L/X2/i-5RTHvVH-X2.jpg" class="card-img-top" alt="Mobile Internet">
+                <div class="card-body">
+                    <h5 class="card-title">Mobile Internet and Network Installation </h5>
+                    <p class="card-text">We install Peplink mobile internet routers and integrate LTE or 5G cellular and Starlink into a seamless unbreakable internet connection. </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="brands" class="section_margin">
+    <h3 class="h3_centered">Brands We Install</h3>
+    <div class="carousel_justify">
+        <!-- Carousel -->
+        <!-- carousel: The main container for the carousel, establishing the structure necessary for creating a sliding image gallery. -->
+        <div id="home_carousel" class="carousel carousel-dark slide"  data-bs-ride="carousel" >
+            <!-- slide: Enables the sliding effect when transitioning between carousel items, adding styles for smooth animations. -->
+                <div class="carousel-inner carousel_size2">
+                <!-- carousel-inner: Contains all the carousel items, wrapping the individual slides and managing their display and transition effects. -->
+                    <div class="carousel-item active" data-bs-interval="5000">
+                 
+                        <img src="SOK.jpg" class="d-block w-40 box_fill" alt="SOK">
+                       
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="Rich-Solar.png" class="d-block w-40 box_fill2" alt="Rich Solar" >
+    
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="victron.jpg" class="d-block w-30 box_fill2" alt="Victron">
+                    </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                    <img src="peplink.webp" class="d-block w-40 box_fill2" alt="Peplink" >
+
+                </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+</section>
+</main>
+<footer>
+    <section id="contact" class="section_margin">
+    
+        <h2 class="h2_centered">Contact Us</h2>
+    
+            <div class="form-shape message_box">
+                <label for="name">Name</label>
+                <input type="text" name="myName" id="name"
+                    placeholder="Enter your Name">
+            </div>
+            <div class="form-shape message_box">
+                <label for="email">Email Address</label>
+                <input type="email" name="myEmail" id="email"
+                    placeholder="Enter your email">
+            </div>
+            <div class="form-shape message_box">
+                <label for="message">
+                    Message
+                </label>
+                <textarea name="mesg" id="message" cols="30" rows="10">
+                </textarea>
+            </div>
+            <input type="submit" value="Submit">
+            </form>
+    
+    </section>
+    
+    
+    </footer>
+</body>
+</html>
