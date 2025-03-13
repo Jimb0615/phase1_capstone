@@ -4,85 +4,95 @@
 * {
     margin: 0px;
     padding: 0px;
-}
+    }
+
+/* This class puts the nav bar element at the top opf the page and keeps it in the foreground when the page is scrolled */    
 .nav_stick {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 100;
-   
-    
-  }
-.menucolor {
-background-color:lightsteelblue;
+    }
 
-}
+/* This class sets the background color for the nav menu*/
+    .menucolor {
+    background-color:lightsteelblue;
+    }
+
+/* This class sets the picture carousel to center justify using flex */ 
 .carousel_justify {
     display: flex;
     justify-content: center;
       }
+
+/* this class sets the size for the upper picture carousel */       
 .carousel_size {
     width:100%;
     max-height:768px;
-}
+    }
 
+/* this class sets the size for the lower picture carousel*/ 
 .carousel_size2 {
     display:flex;
     width:70%;
     max-height:350px;
+    }  
 
-
-}  
+/*this class sets the picture size for the upper picture carousel */     
 .box_fill {
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        min-height: 300px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 300px;
     }
 
+/* this classs sets the picture size for the lower picture carousel */ 
 .box_fill2 {
     display: flex;
     justify-items:center;
     max-width: 100%;
     min-height: 100px;
     }
-    
+
+/* This class sets the margin between sections and the menu bar */     
 .section_margin{
     height: auto;
     margin-top: 50px;
     scroll-margin-top: 150px;
      }
+
 /* this class sets centered alignment for H2 headers*/
 .h2_centered{
     text-align:center;
-}
+    }
 
 /* this class sets centered alignment for H3 headers*/
 .h3_centered{
     text-align:center;
-}
+    }
 /* this class sets the image size in the cards to not exceed the card width*/
 .card_img_size {
     max-width: 100%;
     height: auto;
-}
+    }
 
-
-
-
-
-
+/* This class aligns text within the footer element */ 
 footer {
     text-align: center;
-}
+    }
+/* this classs jistifies the message box element and sets it as a column */     
 .message_box{
     display: flex;
     flex-direction: column;
     align-items: center;
+    }
+
+/* this class sets the size of the text input are for name and email*/
+.form-shape input{
+    width: 300px;
 }
 
-
-.form-shape input,
+/* this class sets the size of the text input area for the message box*/
 .form-shape textarea {
     width: 300px;
     padding: 0.5rem;
